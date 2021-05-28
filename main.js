@@ -17,6 +17,11 @@ function createWindow () {
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
+
+  // Main
+
+  mainWindow.setProgressBar(0.5)
+
 }
 
 // This method will be called when Electron has finished
